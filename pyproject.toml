@@ -1,0 +1,17 @@
+[project]
+name = "jobapp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "apify-client>=1.12.2",
+    "flask>=3.1.1",
+    "google-genai>=1.29.0",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "pymupdf>=1.26.3",
+    "python-dotenv>=1.1.1",
+    "scikit-learn>=1.7.1",
+    "streamlit>=1.48.0",
+]
